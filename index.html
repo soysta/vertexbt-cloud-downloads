@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VertexBT Cloud</title>
+    <meta name="description" content="PBX entegre CRM, Yeastar P-Series agent ve supervisor platformu." />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="./">
+        <span>V</span>
+        <strong>VertexBT Cloud</strong>
+      </a>
+      <nav>
+        <a href="#download">Indir</a>
+        <a href="#install">Kurulum</a>
+        <a href="https://github.com/soysta/vertexbt-crm/releases">Surumler</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <p class="eyebrow">PBX entegre CRM platformu</p>
+          <h1>Agent, musteri ve cagri notlarini tek merkezde yonetin.</h1>
+          <p class="lead">VertexBT Cloud, Yeastar P-Series webhook ve OpenAPI akisini CRM ekraniyla birlestirir. Server paketi merkezi calistirir, Client paketi agent bilgisayarlarini baglar.</p>
+          <div class="actions">
+            <a class="primary" href="#download">Kurulum paketlerini indir</a>
+            <a class="secondary" href="https://github.com/soysta/vertexbt-crm/releases/latest">Son release</a>
+          </div>
+        </div>
+        <div class="preview">
+          <div class="call-card">
+            <span class="status">ringing</span>
+            <strong>+90 555 111 22 33</strong>
+            <small>Dahili 1000 icin gelen cagri</small>
+          </div>
+          <div class="note-card">
+            <strong>Gorusme notu</strong>
+            <p>Musteri talebi, takip aksiyonu ve eski notlar agent ekraninda.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="download" class="section">
+        <div class="section-head">
+          <p class="eyebrow">Download</p>
+          <h2>Server ve Client paketleri</h2>
+        </div>
+        <div class="downloads">
+          <article>
+            <h3>VertexBT Cloud Server</h3>
+            <p>Ana PC, mini server veya VPS uzerinde backend, webhook ve lokal veriyi calistirir.</p>
+            <a id="serverDownload" class="primary" href="https://github.com/soysta/vertexbt-crm/releases/latest">Server MSI indir</a>
+          </article>
+          <article>
+            <h3>VertexBT Cloud Client</h3>
+            <p>Agent bilgisayarina kurulur. Lokal server baslatmaz, merkez adrese baglanir.</p>
+            <a id="clientDownload" class="primary" href="https://github.com/soysta/vertexbt-crm/releases/latest">Client MSI indir</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="install" class="section">
+        <div class="section-head">
+          <p class="eyebrow">Kurulum</p>
+          <h2>Dogru paket dogru bilgisayara</h2>
+        </div>
+        <ol class="steps">
+          <li><strong>Server MSI</strong> ana bilgisayara kurulur ve Yeastar webhook adresi buraya yonlendirilir.</li>
+          <li><strong>Client MSI</strong> agent bilgisayarina kurulur ve merkez adresi girilir.</li>
+          <li>Client baglandiktan sonra kendi dahili numarasina gelen cagri popup olarak acilir.</li>
+          <li>Yeni surumler uygulama tarafindan 30 dakikada bir kontrol edilir.</li>
+        </ol>
+      </section>
+    </main>
+
+    <footer>
+      <span>VertexBT Cloud</span>
+      <a href="./latest.json">latest.json</a>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>

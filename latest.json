@@ -1,0 +1,20 @@
+{
+  "product": "VertexBT Cloud",
+  "version": "0.1.9",
+  "tag": "v0.1.9",
+  "releasedAt": "2026-06-04T09:50:09.039Z",
+  "checkIntervalMinutes": 30,
+  "notesUrl": "https://github.com/soysta/vertexbt-cloud-downloads/releases/tag/v0.1.9",
+  "server": {
+    "fileName": "VertexBT.Cloud.Server-0.1.9-x64.msi",
+    "url": "https://github.com/soysta/vertexbt-cloud-downloads/releases/download/v0.1.9/VertexBT.Cloud.Server-0.1.9-x64.msi",
+    "sha256": "58ac63a9af30f0c18cbc75d1b42ee76bda6eab332cb30ccd7b442eb7c29d4c7c",
+    "size": 111112673
+  },
+  "client": {
+    "fileName": "VertexBT.Cloud.Client-0.1.9-x64.msi",
+    "url": "https://github.com/soysta/vertexbt-cloud-downloads/releases/download/v0.1.9/VertexBT.Cloud.Client-0.1.9-x64.msi",
+    "sha256": "a95996df6c8960741099f40b682dd5ae1cb8a5b859e89320e23fd2ab0da90175",
+    "size": 111120843
+  }
+}
