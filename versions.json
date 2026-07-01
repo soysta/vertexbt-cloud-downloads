@@ -1,5 +1,26 @@
 ﻿[
     {
+        "tag_name":  "v0.2.14",
+        "name":  "Release v0.2.14",
+        "draft":  false,
+        "prerelease":  false,
+        "created_at":  "2026-07-01T08:03:06Z",
+        "published_at":  "2026-07-01T13:15:17Z",
+        "html_url":  "https://github.com/soysta/vertexbt-cloud-downloads/releases/tag/v0.2.14",
+        "assets":  [
+                       {
+                           "name":  "VertexBT.Cloud.Client-0.2.14-x64.msi",
+                           "size":  111370596,
+                           "browser_download_url":  "https://github.com/soysta/vertexbt-cloud-downloads/releases/download/v0.2.14/VertexBT.Cloud.Client-0.2.14-x64.msi"
+                       },
+                       {
+                           "name":  "VertexBT.Cloud.Server-0.2.14-x64.msi",
+                           "size":  111370618,
+                           "browser_download_url":  "https://github.com/soysta/vertexbt-cloud-downloads/releases/download/v0.2.14/VertexBT.Cloud.Server-0.2.14-x64.msi"
+                       }
+                   ]
+    },
+    {
         "tag_name":  "v0.2.13",
         "name":  "Release v0.2.13",
         "draft":  false,
@@ -143,27 +164,6 @@
                            "name":  "VertexBT.Cloud.Server-0.2.7-x64.msi",
                            "size":  111133153,
                            "browser_download_url":  "https://github.com/soysta/vertexbt-cloud-downloads/releases/download/v0.2.7/VertexBT.Cloud.Server-0.2.7-x64.msi"
-                       }
-                   ]
-    },
-    {
-        "tag_name":  "v0.2.6",
-        "name":  "VertexBT Cloud v0.2.6",
-        "draft":  false,
-        "prerelease":  false,
-        "created_at":  "2026-06-04T10:17:09Z",
-        "published_at":  "2026-06-14T21:12:22Z",
-        "html_url":  "https://github.com/soysta/vertexbt-cloud-downloads/releases/tag/v0.2.6",
-        "assets":  [
-                       {
-                           "name":  "VertexBT.Cloud.Client-0.2.6-x64.msi",
-                           "size":  111129035,
-                           "browser_download_url":  "https://github.com/soysta/vertexbt-cloud-downloads/releases/download/v0.2.6/VertexBT.Cloud.Client-0.2.6-x64.msi"
-                       },
-                       {
-                           "name":  "VertexBT.Cloud.Server-0.2.6-x64.msi",
-                           "size":  111133153,
-                           "browser_download_url":  "https://github.com/soysta/vertexbt-cloud-downloads/releases/download/v0.2.6/VertexBT.Cloud.Server-0.2.6-x64.msi"
                        }
                    ]
     }
