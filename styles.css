@@ -450,6 +450,24 @@ h3 {
   font-weight: 900;
 }
 
+.releases-hero {
+  max-width: 1180px;
+  margin: 96px auto 0;
+  padding-bottom: 0;
+}
+
+.releases-hero h1 {
+  max-width: 780px;
+  margin: 0 0 18px;
+  color: var(--ink);
+  font-size: clamp(44px, 7vw, 86px);
+  line-height: 0.96;
+}
+
+.releases-download {
+  margin-top: 52px;
+}
+
 .versions-section {
   max-width: 1180px;
   margin: 86px auto 0;
