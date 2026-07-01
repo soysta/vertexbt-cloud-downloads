@@ -3,108 +3,284 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>VertexBT Cloud</title>
-    <meta name="description" content="PBX entegre CRM, Yeastar P-Series agent ve supervisor platformu." />
+    <title>VertexBT Cloud | PBX Entegre CRM</title>
+    <meta
+      name="description"
+      content="Yeastar P-Series uyumlu çağrı popup, müşteri kartı, not geçmişi, supervisor takibi ve masaüstü connector ile PBX entegre CRM platformu."
+    />
+    <meta property="og:title" content="VertexBT Cloud" />
+    <meta property="og:description" content="Santral çağrılarını müşteri takibi ve satış akışına dönüştüren PBX entegre CRM." />
+    <meta property="og:image" content="./assets/product-preview.png" />
+    <link rel="preload" href="./assets/product-preview.png" as="image" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header class="topbar">
-      <a class="brand" href="./">
-        <span>V</span>
-        <strong>VertexBT Cloud</strong>
+    <header class="topbar" aria-label="Ana menü">
+      <a class="brand" href="./" aria-label="VertexBT Cloud ana sayfa">
+        <span class="brand-mark">V</span>
+        <span>
+          <strong>VertexBT Cloud</strong>
+          <small>PBX entegre CRM</small>
+        </span>
       </a>
       <nav>
-        <a href="#pricing">Paketler</a>
-        <a href="#download">Indir</a>
-        <a href="#install">Kurulum</a>
-        <a href="https://github.com/soysta/vertexbt-cloud-downloads/releases">Surumler</a>
+        <a href="#platform">Platform</a>
+        <a href="#packages">Paketler</a>
+        <a href="#download">İndir</a>
+        <a href="#versions">Sürümler</a>
+        <a href="#contact">İletişim</a>
       </nav>
+      <a class="nav-cta" href="https://app.vertexbt.cloud">Panele giriş</a>
     </header>
 
     <main>
       <section class="hero">
-        <div>
-          <p class="eyebrow">PBX entegre CRM platformu</p>
-          <h1>Santral cagrisini lisansli CRM is akisine donusturun.</h1>
-          <p class="lead">VertexBT Cloud, Yeastar P-Series webhook ve OpenAPI akisini agent popup, musteri karti, not gecmisi, supervisor takibi ve otomatik abonelik modeliyle birlestirir.</p>
-          <div class="actions">
+        <picture>
+          <img src="./assets/product-preview.png" alt="VertexBT Cloud agent ekranı ve çağrı popup arayüzü" />
+        </picture>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Yeastar P-Series uyumlu</p>
+          <h1>VertexBT Cloud</h1>
+          <p class="hero-lead">
+            Santral çağrılarını anlık popup, müşteri kartı, not geçmişi ve supervisor takibiyle yönetilen bir satış ve destek akışına dönüştürün.
+          </p>
+          <div class="hero-actions">
             <a class="primary" href="#download">Kurulum paketlerini indir</a>
-            <a class="secondary" href="#pricing">Paketleri gor</a>
+            <a class="secondary" href="#packages">Paketleri incele</a>
           </div>
-        </div>
-        <div class="preview">
-          <div class="call-card">
-            <span class="status">ringing</span>
-            <strong>+90 555 111 22 33</strong>
-            <small>Dahili 1000 icin gelen cagri</small>
-          </div>
-          <div class="note-card">
-            <strong>Gorusme notu</strong>
-            <p>Musteri talebi, takip aksiyonu ve eski notlar agent ekraninda.</p>
-          </div>
+          <dl class="hero-metrics">
+            <div><dt>Webhook</dt><dd>Canlı çağrı akışı</dd></div>
+            <div><dt>Client</dt><dd>Yerel click-to-call</dd></div>
+            <div><dt>Cloud</dt><dd>Web panel ve lisans</dd></div>
+          </dl>
         </div>
       </section>
 
-      <section id="pricing" class="section">
+      <section class="proof-strip" aria-label="Öne çıkan kullanım alanları">
+        <span>Çağrı merkezleri</span>
+        <span>Satış ekipleri</span>
+        <span>Servis ve destek</span>
+        <span>Randevu takibi</span>
+      </section>
+
+      <section id="platform" class="section platform-section">
+        <div class="section-head">
+          <p class="eyebrow">Platform</p>
+          <h2>Telefon çaldığında müşteri dosyası da açılır.</h2>
+          <p>
+            Agent çağrıyı kaçırmadan not alır, müşteri bilgilerini tamamlar ve geçmiş görüşmeleri aynı ekranda görür. Supervisor ise ekip akışını ve not durumlarını takip eder.
+          </p>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <span class="feature-icon">01</span>
+            <h3>Çağrı popup</h3>
+            <p>Gelen veya başlatılan çağrı ilgili dahiliye göre agent ekranında açılır. Eski notlar ve müşteri bilgisi birlikte görünür.</p>
+          </article>
+          <article>
+            <span class="feature-icon">02</span>
+            <h3>Müşteri kartı</h3>
+            <p>Ad, firma, telefon, e-posta, vergi bilgisi ve adres alanlarıyla müşteri verisi düzenli tutulur.</p>
+          </article>
+          <article>
+            <span class="feature-icon">03</span>
+            <h3>Yerel connector</h3>
+            <p>Client MSI, kullanıcının PC'sinden Yeastar OpenAPI ile click-to-call çalıştırır. Cloud tarafı güvenli kalır.</p>
+          </article>
+          <article>
+            <span class="feature-icon">04</span>
+            <h3>Supervisor panel</h3>
+            <p>Son çağrılar, not durumu, agent eşleşmeleri ve dahili bazlı takip tek panelde izlenir.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section workflow-section">
+        <div class="section-head compact">
+          <p class="eyebrow">Akış</p>
+          <h2>Kurulumdan canlı kullanıma net yol.</h2>
+        </div>
+        <div class="workflow">
+          <article>
+            <strong>1</strong>
+            <h3>Santral bağlanır</h3>
+            <p>Yeastar API bilgileri ve webhook adresi tenant ayarlarına girilir.</p>
+          </article>
+          <article>
+            <strong>2</strong>
+            <h3>Kullanıcı eşleşir</h3>
+            <p>Agent hesabı dahili numarasıyla eşleştirilir ve rol bazlı menü gösterilir.</p>
+          </article>
+          <article>
+            <strong>3</strong>
+            <h3>Çağrı yakalanır</h3>
+            <p>Webhook çağrıyı buluta taşır, client popup ve yerel arama köprüsünü çalıştırır.</p>
+          </article>
+          <article>
+            <strong>4</strong>
+            <h3>Not kapanır</h3>
+            <p>Agent görüşme sonucunu kaydeder, müşteri geçmişi güncellenir.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="packages" class="section pricing-section">
         <div class="section-head">
           <p class="eyebrow">Paketler</p>
-          <h2>Sabit aylik abonelik modeli</h2>
+          <h2>İhtiyaca göre ölçeklenen ürün paketleri.</h2>
+          <p>Kurulum kapsamı, kullanıcı sayısı ve santral yapısına göre teklif süreciyle ilerlenir.</p>
         </div>
         <div class="pricing">
           <article>
             <span>Starter</span>
-            <strong>9.500 TL / ay</strong>
-            <p>5 kullanici, 1 santral, temel popup, musteri ve not yonetimi.</p>
+            <strong>Başlangıç</strong>
+            <p>5 kullanıcı, 1 santral, agent popup, müşteri ve not yönetimi.</p>
+            <ul>
+              <li>Cloud panel</li>
+              <li>Temel supervisor görünümü</li>
+              <li>E-posta destek</li>
+            </ul>
           </article>
           <article class="featured">
             <span>Business</span>
-            <strong>19.500 TL / ay</strong>
-            <p>20 kullanici, desktop client, supervisor panel, cagri gecmisi ve not zorunlulugu.</p>
+            <strong>Operasyon</strong>
+            <p>20 kullanıcı, desktop client, yerel click-to-call ve kapsamlı takip.</p>
+            <ul>
+              <li>Server + Client MSI</li>
+              <li>Otomatik güncelleme kanalı</li>
+              <li>Öncelikli destek</li>
+            </ul>
           </article>
           <article>
             <span>Enterprise</span>
-            <strong>35.000 TL+ / ay</strong>
-            <p>Coklu santral, ozel connector, SLA, gelismis raporlama ve kurumsal destek.</p>
+            <strong>Kurumsal</strong>
+            <p>Çoklu santral, özel connector, raporlama ve kurumsal devreye alma.</p>
+            <ul>
+              <li>Özel SLA</li>
+              <li>Veri aktarım desteği</li>
+              <li>Yerinde veya uzaktan kurulum</li>
+            </ul>
           </article>
         </div>
       </section>
 
-      <section id="download" class="section">
-        <div class="section-head">
-          <p class="eyebrow">Download</p>
-          <h2>Server ve Client paketleri</h2>
+      <section id="download" class="section download-section">
+        <div class="download-copy">
+          <p class="eyebrow">Teslim paketi</p>
+          <h2>Server ve Client MSI hazır.</h2>
+          <p>
+            Server paketi ana bilgisayar veya VPS rolünde çalışır. Client paketi agent bilgisayarında görev tepsisine yerleşir ve merkez panele bağlanır.
+          </p>
+          <small id="releaseInfo">Son sürüm bilgisi yükleniyor...</small>
+          <dl class="release-summary" aria-label="Güncel kurulum sürümü">
+            <div>
+              <dt>Güncel sürüm</dt>
+              <dd id="releaseVersion">Yükleniyor</dd>
+            </div>
+            <div>
+              <dt>Yayın tarihi</dt>
+              <dd id="releaseDate">-</dd>
+            </div>
+            <div>
+              <dt>Server paketi</dt>
+              <dd id="serverPackageName">Server MSI</dd>
+            </div>
+            <div>
+              <dt>Client paketi</dt>
+              <dd id="clientPackageName">Client MSI</dd>
+            </div>
+          </dl>
         </div>
-        <div class="downloads">
-          <article>
-            <h3>VertexBT Cloud Server</h3>
-            <p>Ana PC, mini server veya VPS uzerinde backend, webhook ve lokal veriyi calistirir.</p>
-            <a id="serverDownload" class="primary" href="https://github.com/soysta/vertexbt-cloud-downloads/releases/latest">Server MSI indir</a>
-          </article>
-          <article>
-            <h3>VertexBT Cloud Client</h3>
-            <p>Agent bilgisayarina kurulur. Lokal server baslatmaz, merkez adrese baglanir.</p>
-            <a id="clientDownload" class="primary" href="https://github.com/soysta/vertexbt-cloud-downloads/releases/latest">Client MSI indir</a>
+        <div class="download-actions">
+          <a id="serverDownload" class="primary" href="https://github.com/soysta/vertexbt-cloud-downloads/releases/latest">Server MSI indir</a>
+          <a id="clientDownload" class="secondary strong" href="https://github.com/soysta/vertexbt-cloud-downloads/releases/latest">Client MSI indir</a>
+          <a class="text-link" href="#versions">Tüm sürümler</a>
+        </div>
+      </section>
+
+      <section id="versions" class="section versions-section">
+        <div class="section-head compact">
+          <p class="eyebrow">Sürüm arşivi</p>
+          <h2>GitHub üzerindeki eski paketler.</h2>
+          <p>
+            Yayındaki Server ve Client MSI paketleri GitHub Releases üzerinden listelenir. Geri dönüş veya eski saha kurulumu gerektiğinde ilgili sürümden indirilebilir.
+          </p>
+        </div>
+        <div id="releaseArchive" class="release-list" aria-live="polite">
+          <article class="release-card loading">
+            <div>
+              <span>Sürümler yükleniyor</span>
+              <strong>GitHub release arşivi kontrol ediliyor.</strong>
+            </div>
           </article>
         </div>
       </section>
 
-      <section id="install" class="section">
-        <div class="section-head">
-          <p class="eyebrow">Kurulum</p>
-          <h2>Dogru paket dogru bilgisayara</h2>
+      <section class="section deploy-section">
+        <div class="section-head compact">
+          <p class="eyebrow">Dağıtım</p>
+          <h2>Bulut + yerel connector mimarisi.</h2>
         </div>
-        <ol class="steps">
-          <li><strong>Server MSI</strong> ana bilgisayara kurulur ve Yeastar webhook adresi buraya yonlendirilir.</li>
-          <li><strong>Client MSI</strong> agent bilgisayarina kurulur ve merkez adresi girilir.</li>
-          <li>Client baglandiktan sonra kendi dahili numarasina gelen cagri popup olarak acilir.</li>
-          <li>Yeni surumler uygulama tarafindan 30 dakikada bir kontrol edilir.</li>
-        </ol>
+        <div class="deploy-grid">
+          <article>
+            <h3>Cloud panel</h3>
+            <p>Web panel ve tenant verisi Cloudflare Worker + D1 üzerinde çalışır.</p>
+          </article>
+          <article>
+            <h3>Webhook endpoint</h3>
+            <p>Santral eventleri güvenli URL ve secret ile buluta gelir.</p>
+          </article>
+          <article>
+            <h3>Desktop client</h3>
+            <p>Click-to-call gibi yerel ağ gerektiren işlemler agent PC'sinden yapılır.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="final-cta">
+        <p class="eyebrow">Satış ve demo</p>
+        <h2>İlk müşteriyi devreye almaya hazırız.</h2>
+        <p>Kurulum paketi, Yeastar entegrasyon akışı ve canlı test planı hazır. Bir sonraki adım müşteri ortamında kontrollü devreye alma.</p>
+        <div class="hero-actions">
+          <a class="primary" href="mailto:info@vertexbt.cloud?subject=VertexBT%20Cloud%20Demo">Demo talep et</a>
+          <a class="secondary" href="https://app.vertexbt.cloud">Panele giriş</a>
+        </div>
       </section>
     </main>
 
-    <footer>
-      <span>VertexBT Cloud</span>
-      <a href="./latest.json">latest.json</a>
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <span class="brand-mark">V</span>
+        <div>
+          <strong>VertexBT Cloud</strong>
+          <span>PBX entegre CRM platformu</span>
+        </div>
+      </div>
+      <div class="footer-columns">
+        <div>
+          <b>Ürün</b>
+          <a href="#platform">Platform</a>
+          <a href="#packages">Paketler</a>
+          <a href="#download">Kurulum</a>
+        </div>
+        <div>
+          <b>Platform</b>
+          <a href="https://app.vertexbt.cloud">Müşteri paneli</a>
+          <a href="#versions">Sürümler</a>
+          <a href="#contact">Demo talebi</a>
+        </div>
+        <div>
+          <b>İletişim</b>
+          <a href="mailto:info@vertexbt.cloud">info@vertexbt.cloud</a>
+          <a href="#contact">Satış görüşmesi</a>
+          <a href="#download">MSI paketleri</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 VertexBT Cloud. Tüm hakları saklıdır.</span>
+        <span>Yeastar P-Series uyumlu CRM connector platformu.</span>
+      </div>
     </footer>
     <script src="./main.js"></script>
   </body>
